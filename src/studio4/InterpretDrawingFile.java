@@ -25,10 +25,10 @@ public class InterpretDrawingFile {
 		int green = in.nextInt();
 		int blue = in.nextInt();
 		boolean filled = in.nextBoolean();
-		double xOne = in.nextInt();
-		double yOne = in.nextInt();
-		double xTwo = in.nextInt();
-		double yTwo = in.nextInt();
+		double xOne = in.nextDouble();
+		double yOne = in.nextDouble();
+		double xTwo = in.nextDouble();
+		double yTwo = in.nextDouble();
 				
 		StdDraw.setPenColor(red, green, blue);
 		
